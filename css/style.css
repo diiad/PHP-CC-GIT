@@ -1,0 +1,99 @@
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 1rem;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: lightgray;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+form > div {
+    flex: 1;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+.input2{ /* POUR LA PAGE CONNEXION */
+    width: 49%;
+    border: none;
+    border-radius: 0.25rem;
+    height: 2rem;
+}
+
+input[type=submit]{
+    color: white;
+    background-color: black;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+a{
+    text-decoration: none;
+    color : inherit;
+
+}
+
+
+.form-group input {
+    width: 100%; /* L'input remplit toute la largeur de la div */
+    border-radius: 0.25rem;
+    height: 2.2rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: none;
+    height: 2rem;
+
+}
+
+input[type=text]{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.erreur{
+    color: red;
+}
